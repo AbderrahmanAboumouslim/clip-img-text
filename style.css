@@ -16,4 +16,9 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  transition: all 0.4s linear;
+}
+
+h1:hover {
+  color: black;
 }
